@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62362F2F1A658D4B003A98BE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62362F2E1A658D4B003A98BE /* Task.m */; };
 		62F5BC3F1A6479A600D356CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5BC3E1A6479A600D356CF /* main.m */; };
 		62F5BC421A6479A600D356CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5BC411A6479A600D356CF /* AppDelegate.m */; };
 		62F5BC451A6479A600D356CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5BC441A6479A600D356CF /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62362F2D1A658D4B003A98BE /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		62362F2E1A658D4B003A98BE /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		62F5BC391A6479A600D356CF /* Deprocrastinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deprocrastinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F5BC3D1A6479A600D356CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F5BC3E1A6479A600D356CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				62F5BC411A6479A600D356CF /* AppDelegate.m */,
 				62F5BC431A6479A600D356CF /* ViewController.h */,
 				62F5BC441A6479A600D356CF /* ViewController.m */,
+				62362F2D1A658D4B003A98BE /* Task.h */,
+				62362F2E1A658D4B003A98BE /* Task.m */,
 				62F5BC461A6479A600D356CF /* Main.storyboard */,
 				62F5BC491A6479A600D356CF /* Images.xcassets */,
 				62F5BC4B1A6479A600D356CF /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62362F2F1A658D4B003A98BE /* Task.m in Sources */,
 				62F5BC451A6479A600D356CF /* ViewController.m in Sources */,
 				62F5BC421A6479A600D356CF /* AppDelegate.m in Sources */,
 				62F5BC3F1A6479A600D356CF /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				62F5BC5E1A6479A600D356CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62F5BC5F1A6479A600D356CF /* Build configuration list for PBXNativeTarget "DeprocrastinatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				62F5BC611A6479A600D356CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
