@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "Task.h"
 
-@interface ViewController () <UITabBarDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIAlertViewDelegate, UIScrollViewDelegate>
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIAlertViewDelegate, UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property NSMutableArray *listArray;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -45,11 +45,12 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellID"]; //creates a reusable cell object with specified "CellID"
-    Task *task = [self.listArray objectAtIndex:indexPath.row];
+    Task *task = [self.listArray objectAtIndex:indexPath.row]; // gets the object of the row number clicked. this is holding the task.
     cell.textLabel.text = task.taskName;
     cell.textLabel.textColor = task.taskColor;
 //    cell.textLabel.text = [NSString stringWithFormat:@"%@", self.listArray[indexPath.row]]; // filling the reusable cell with strings from the array. pulling from the list array. but referencing from the indexPath's row. similar to a for loop.. its built in the method.
     return cell; //returning a copy of the reusable cell with data pulled from the list array at specified indexPath.row
+    
 }
 
 

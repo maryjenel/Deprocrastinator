@@ -12,4 +12,7 @@
 @interface Task : NSObject
 @property NSString *taskName;
 @property UIColor *taskColor;
+//
+//-(instancetype)initWithName:(NSString *)name;
+
 @end

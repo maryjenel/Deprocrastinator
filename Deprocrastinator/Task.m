@@ -10,5 +10,13 @@
 
 
 @implementation Task
-
+//-(instancetype)initWithName:(NSString *)name
+//{
+//    self = [self init];
+//    if (self) {
+//        self.taskName = name;
+//
+//    }
+//    return self;
+//}
 @end
